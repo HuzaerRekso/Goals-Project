@@ -1,4 +1,4 @@
-package id.sch.smktelkom_mlg.project.xirpl609182736.goals.Goals;
+package id.sch.smktelkom_mlg.project.xirpl309182736.goals;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -18,7 +18,7 @@ import com.couchbase.lite.auth.Authenticator;
 import com.couchbase.lite.auth.AuthenticatorFactory;
 import com.couchbase.lite.replicator.Replication;
 import com.couchbase.lite.util.Log;
-import id.sch.smktelkom_mlg.project.xirpl609182736.goals.Goals.util.StringUtil;
+import id.sch.smktelkom_mlg.project.xirpl309182736.goals.util.StringUtil;
 
 import java.net.MalformedURLException;
 import java.net.URL;
@@ -28,7 +28,7 @@ import java.util.List;
 import java.util.Map;
 
 public class Application extends android.app.Application implements Replication.ChangeListener {
-    public static final String TAG = "ToDoLite";
+    public static final String TAG = "Goals";
 
     private static final String SYNC_URL_HTTP = "http://us-east.testfest.couchbasemobile.com:4984/todolite";
 

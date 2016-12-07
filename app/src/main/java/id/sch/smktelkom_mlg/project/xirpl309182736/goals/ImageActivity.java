@@ -1,4 +1,4 @@
-package id.sch.smktelkom_mlg.project.xirpl609182736.goals.Goals;
+package id.sch.smktelkom_mlg.project.xirpl309182736.goals;
 
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
@@ -15,6 +15,8 @@ import com.couchbase.lite.Document;
 
 import java.io.IOException;
 import java.io.InputStream;
+
+import id.sch.smktelkom_mlg.project.xirpl609182736.goals.Goals.R;
 
 public class ImageActivity extends AppCompatActivity {
     public static final String INTENT_TASK_DOC_ID = "image";
