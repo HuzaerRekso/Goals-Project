@@ -28,7 +28,7 @@ import java.util.List;
 import java.util.Map;
 
 public class Application extends android.app.Application implements Replication.ChangeListener {
-    public static final String TAG = "Goals";
+    public static final String TAG = "ToDoLite";
 
     private static final String SYNC_URL_HTTP = "http://us-east.testfest.couchbasemobile.com:4984/todolite";
 

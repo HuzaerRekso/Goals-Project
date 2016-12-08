@@ -144,7 +144,7 @@ public class TaskActivity extends AppCompatActivity {
             @Override
             public boolean onKey(View view, int i, KeyEvent keyEvent) {
                 if ((keyEvent.getAction() == KeyEvent.ACTION_DOWN) &&
-                        (keyEvent.getKeyCode() == KeyEvent.KEYCODE_ENTER)) {
+                    (keyEvent.getKeyCode() == KeyEvent.KEYCODE_ENTER)) {
                     String inputText = text.getText().toString();
                     if (inputText.length() > 0)
                         createTask(inputText, mImageToBeAttached, mListId);
@@ -203,6 +203,7 @@ public class TaskActivity extends AppCompatActivity {
         Query query = application.getTasksView().createQuery();
         query.setDescending(true);
 
+
         List<Object> startKeys = new ArrayList<Object>();
         startKeys.add(mListId);
         startKeys.add(new HashMap<String, Object>());
@@ -249,6 +250,7 @@ public class TaskActivity extends AppCompatActivity {
         alert.setTitle(getResources().getString(R.string.title_dialog_update));
 
         final EditText input = new EditText(this);
+        final EditText date = new EditText(this);
         input.setMaxLines(1);
         input.setSingleLine(true);
         String text = (String) task.getProperty("title");

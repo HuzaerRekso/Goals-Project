@@ -80,26 +80,26 @@ public class LoginActivity extends AppCompatActivity {
 
     private void continueFacebookLogin(final LoginResult loginResult) {
         GraphRequest request = GraphRequest.newMeRequest(
-                loginResult.getAccessToken(), new GraphRequest.GraphJSONObjectCallback() {
-                    @Override
-                    public void onCompleted(JSONObject object, GraphResponse response) {
-                        if (object == null) {
-                            Log.e(Application.TAG, "Cannot get facebook user info after login");
-                            return;
-                        }
+            loginResult.getAccessToken(), new GraphRequest.GraphJSONObjectCallback() {
+                @Override
+                public void onCompleted(JSONObject object, GraphResponse response) {
+                    if (object == null) {
+                        Log.e(Application.TAG, "Cannot get facebook user info after login");
+                        return;
+                    }
 
-                        try {
-                            AccessToken accessToken = loginResult.getAccessToken();
-                            String token = accessToken.getToken();
-                            String userId = accessToken.getUserId();
-                            String name = object.getString("name");
-                            loginAsFacebookUser(token, userId, name);
-                        } catch (JSONException e) {
-                            Log.e(Application.TAG, "Cannot get facebook user info after login", e);
-                            return;
-                        }
+                    try {
+                        AccessToken accessToken = loginResult.getAccessToken();
+                        String token = accessToken.getToken();
+                        String userId = accessToken.getUserId();
+                        String name = object.getString("name");
+                        loginAsFacebookUser(token, userId, name);
+                    } catch (JSONException e) {
+                        Log.e(Application.TAG, "Cannot get facebook user info after login", e);
+                        return;
                     }
                 }
+            }
         );
 
         Bundle parameters = new Bundle();

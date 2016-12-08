@@ -16,8 +16,6 @@ import com.couchbase.lite.Document;
 import java.io.IOException;
 import java.io.InputStream;
 
-import id.sch.smktelkom_mlg.project.xirpl609182736.goals.Goals.R;
-
 public class ImageActivity extends AppCompatActivity {
     public static final String INTENT_TASK_DOC_ID = "image";
 

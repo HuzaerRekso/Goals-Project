@@ -27,7 +27,6 @@ import com.couchbase.lite.QueryRow;
 import com.couchbase.lite.TransactionalTask;
 import com.couchbase.lite.util.Log;
 import id.sch.smktelkom_mlg.project.xirpl309182736.goals.util.LiveQueryAdapter;
-import id.sch.smktelkom_mlg.project.xirpl609182736.goals.Goals.R;
 
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
@@ -238,4 +237,3 @@ public class ListActivity extends AppCompatActivity {
         }
     }
 }
-
