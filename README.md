@@ -10,6 +10,7 @@ kawan atau teman anda.
 ![ScreenShot](https://github.com/HuzaerRekso/Goals-Project/blob/master/SS_Gols5.jpeg "")
 ![ScreenShot](https://github.com/HuzaerRekso/Goals-Project/blob/master/SS_Gols6.jpeg "")
 *https://drive.google.com/a/smktelkom-mlg.sch.id/file/d/0B8rGYqwqXZ60WjFzdmRyNlFMa0E/view?usp=sharing
+*https://youtu.be/vTuUV869Nx0
 #Anggota
 1. Elvira Ayu Sosilia / XIRPL3 / 09 / 4701/1420.070 / elviraayu / SMK Telkom Malang 
 2. M. Huzaer Rekso J. / XIRPL3 / 18 / 4756/1475.070 / huzaerrekso / SMK Telkom Malang
